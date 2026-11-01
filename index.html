@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دور لغة CSS في تنسيق صفحات الويب</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 style="color: red;">دور لغة CSS في تغيير ألوان وخطوط وتصميم صفحات الويب</h1>
+        <p><strong>إعداد الطالبة:</strong> جنى مصطفى محمود محمد محمود علي السيد</p>
+        <p><strong>الرقم الجامعي:</strong> 2500938</p>
+        <p><strong>المقرر:</strong> تطبيقات الإنترنت والمنصات الإلكترونية</p>
+        <p><strong>إشراف الدكتور:</strong>  مها زغلول</p>
+        <p><strong> العام الدراسي:</strong>  2026 - 2027</p>
+
+    </header>
+
+    <main>
+        <section>
+            <h2 style="color:red;">المقدمة</h2>
+            <p>
+                أصبحت مواقع الويب من أهم وسائل التواصل والحصول على المعلومات في العصر الحديث،
+                حيث تُستخدم في التعليم والتجارة والعمل والترفيه. ولا يرتبط نجاح أي موقع إلكتروني
+                بجودة المعلومات التي يعرضها فقط، بل يتوقف أيضًا على أسلوب عرضها وتنظيمها بشكل
+                واضح وسهل يجذب المستخدم.
+            </p>
+            <p>
+                وتُعد لغة <strong>CSS</strong> من الأدوات الأساسية المستخدمة في تصميم صفحات الويب،
+                فهي المسؤولة عن تحديد الشكل الخارجي للصفحة، مثل ألوان النصوص والخلفيات وأنواع
+                الخطوط وأحجامها والمسافات بين العناصر وطريقة ترتيب المحتوى.
+            </p>
+            <p>
+                يهدف هذا التقرير إلى توضيح دور لغة CSS في تحسين مظهر صفحات الويب، مع تقديم
+                أمثلة مبسطة توضح كيفية استخدامها في تغيير الألوان والخطوط وتنسيق العناصر،
+                وبيان أهميتها في جعل المواقع أكثر جاذبية وسهولة في الاستخدام.
+            </p>
+        </section>
+
+        <section>
+            <h2 style="color: red;">عرض الموضوع</h2>
+
+            <h3 style="color: rebeccapurple;">أولًا: ما هي لغة CSS؟</h3>
+            <p>
+                تعني CSS عبارة <strong>Cascading Style Sheets</strong>، أي أوراق الأنماط المتتالية،
+                وهي لغة تُستخدم للتحكم في مظهر صفحات الويب وتنسيق عناصرها. وتُكمل CSS لغة HTML؛
+                فالأولى مسؤولة عن بناء هيكل الصفحة وتنظيم محتواها، بينما تتحكم الثانية في طريقة
+                ظهور هذا المحتوى وتنسيقه أمام المستخدم.
+            </p>
+
+            <img src="css.png" alt="photo" width="1350px">
+
+            <h3 style="color: rebeccapurple;">ثانيًا: دور CSS في تغيير الألوان</h3>
+            <p>
+                تسمح CSS بتغيير ألوان النصوص والخلفيات، مما يساعد على إبراز المعلومات المهمة
+                وجعل الصفحة أكثر جاذبية. ومن أهم الخصائص المستخدمة:
+            </p>
+            <ul>
+                <li><strong>color:</strong> لتغيير لون النص.</li>
+                <li><strong>background-color:</strong> لتغيير لون الخلفية.</li>
+            </ul>
+            <p>مثال برمجي:</p>
+            <p dir="ltr"><code>h1 { color: blue; }</code></p>
+            <p dir="ltr"><code>body { background-color: lightgray; }</code></p>
+            <p>
+                في هذا المثال يتم تغيير لون العنوان إلى الأزرق، بينما تصبح خلفية الصفحة رمادية
+                فاتحة. ويجب مراعاة وجود تباين واضح بين لون النص والخلفية حتى يتمكن المستخدم من
+                القراءة بسهولة.
+            </p>
+
+            <h3 style="color: rebeccapurple;">ثالثًا: دور CSS في تنسيق الخطوط</h3>
+            <p>
+                تساعد CSS على التحكم في شكل النصوص داخل صفحات الويب، مما يجعل القراءة أكثر
+                وضوحًا وتنظيمًا. ومن أهم خصائص تنسيق الخطوط:
+            </p>
+            <ul>
+                <li><strong>font-family:</strong> لتحديد نوع الخط.</li>
+                <li><strong>font-size:</strong> لتحديد حجم الخط.</li>
+                <li><strong>font-weight:</strong> للتحكم في سماكة الخط.</li>
+                <li><strong>text-align:</strong> لتحديد محاذاة النص.</li>
+                <li><strong>line-height:</strong> لتحديد المسافة بين الأسطر.</li>
+            </ul>
+            <p>
+                مثال: يمكن استخدام <strong>font-family: Arial</strong> لاختيار نوع الخط،
+                و<strong>font-size: 16px</strong> لتحديد حجمه، و<strong>text-align: right</strong>
+                لمحاذاة النص إلى اليمين.
+            </p>
+
+            <h3 style="color: rebeccapurple;">رابعًا: تنسيق العناصر والمسافات</h3>
+            <p>
+                لا يقتصر دور CSS على تغيير الألوان والخطوط، بل يمكن استخدامها أيضًا لتنسيق
+                العناصر المختلفة داخل الصفحة، مثل الأزرار والصناديق والصور وأقسام المحتوى.
+                ومن أهم الخصائص المستخدمة:
+            </p>
+            <ul>
+                <li><strong>margin:</strong> لتحديد المسافة الخارجية حول العنصر.</li>
+                <li><strong>padding:</strong> لتحديد المسافة الداخلية بين المحتوى وحدود العنصر.</li>
+                <li><strong>border:</strong> لإضافة حدود حول العنصر.</li>
+                <li><strong>border-radius:</strong> لجعل زوايا العنصر مستديرة.</li>
+            </ul>
+
+            <h3 style="color: rebeccapurple;">خامسًا: أهمية CSS في تحسين تجربة المستخدم</h3>
+            <p>
+                تساعد CSS على جعل الموقع أكثر تنظيمًا وجاذبية، كما تسهّل على المستخدم الوصول
+                إلى المعلومات المهمة. ويمكن استخدامها لإنشاء تصميمات مرنة تتناسب مع أحجام
+                الشاشات المختلفة، مثل الهواتف المحمولة وأجهزة الكمبيوتر. لذلك يُعد استخدام
+                CSS بطريقة صحيحة عاملًا مهمًا في تحسين تجربة المستخدم وإظهار الموقع بصورة احترافية.
+            </p>
+
+            <h3>جدول يوضح بعض خصائص CSS واستخداماتها</h3>
+            <table border="5">
+                <tr>
+                    <th style="color: blue;">خاصية CSS</th>
+                    <th style="color: blue;">وظيفتها</th>
+                    <th style="color: blue;">مثال</th>
+                </tr>
+                <tr>
+                    <td>color</td>
+                    <td>تغيير لون النص</td>
+                    <td>blue</td>
+                </tr>
+                <tr>
+                    <td>background-color</td>
+                    <td>تغيير لون الخلفية</td>
+                    <td>lightgray</td>
+                </tr>
+                <tr>
+                    <td>font-size</td>
+                    <td>تحديد حجم الخط</td>
+                    <td>16px</td>
+                </tr>
+                <tr>
+                    <td>margin</td>
+                    <td>تحديد المسافة الخارجية</td>
+                    <td>10px</td>
+                </tr>
+                <tr>
+                    <td>border-radius</td>
+                    <td>تدوير زوايا العنصر</td>
+                    <td>8px</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2 style="color: red;">الخاتمة</h2>
+            <p>
+                في نهاية هذا التقرير، يتضح أن لغة CSS تؤدي دورًا أساسيًا في تصميم صفحات الويب
+                وتنسيقها، حيث تتيح للمطورين تغيير الألوان والخطوط والخلفيات والمسافات والتحكم
+                في طريقة عرض العناصر المختلفة. كما تساعد على تحسين سهولة قراءة المحتوى وتنظيم
+                المعلومات وإنشاء تصميمات متناسقة تتناسب مع الأجهزة المختلفة. ولذلك فإن تعلم
+                أساسيات CSS يُعد خطوة مهمة لكل من يرغب في تعلم تصميم وتطوير مواقع الويب.
+            </p>
+        </section>
+
+        <section>
+            <h2 style="color: red;">المراجع</h2>
+            <ul>
+                <li>
+                    MDN Web Docs – Styling the content:
+                    <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content" target="_blank" rel="noopener noreferrer">اضغط هنا لزيارة المرجع</a>
+                </li>
+                <li>
+                    MDN Web Docs – CSS styling basics:
+                    <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics" target="_blank" rel="noopener noreferrer">اضغط هنا لزيارة المرجع</a>
+                </li>
+                <li>
+                    World Wide Web Consortium (W3C) – CSS:
+                    <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank" rel="noopener noreferrer">اضغط هنا لزيارة المرجع</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>إعداد الطالبة: جنى مصطفى محمود محمد محمود علي السيد — 2500938</p>
+    </footer>
+
+</body>
+</html>
